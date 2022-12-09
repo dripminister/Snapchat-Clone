@@ -4,12 +4,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth"
 import { getStorage } from "firebase/storage"
 
 const firebaseConfig = {
-	apiKey: "AIzaSyCd2dpglkbqBlGwEuLPP4wKr2RGN_YFo6I",
-	authDomain: "snapchat-clone-ed0c3.firebaseapp.com",
-	projectId: "snapchat-clone-ed0c3",
-	storageBucket: "snapchat-clone-ed0c3.appspot.com",
-	messagingSenderId: "335046183964",
-	appId: "1:335046183964:web:206fa0b5332fda35efe3d9",
+	//Firebase config
 }
 
 const app = initializeApp(firebaseConfig)
